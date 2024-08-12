@@ -1,4 +1,4 @@
-# **QuizCraft - A Coding Quiz Web App**
+# **Quizzify - A Coding Quiz Web App**
 
 QuizCraft is a dynamic and interactive quiz application designed for coders and programmers who want to test and improve their coding knowledge. Built using HTML, CSS, JavaScript, and AI, this web app offers an engaging experience with a focus on quick thinking and knowledge retention.
 
