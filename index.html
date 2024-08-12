@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzify Quiz App | Take the test now!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/675dac8557.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/2839/2839259.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="Logo">
+            <img src="https://cdn-icons-png.flaticon.com/128/2839/2839259.png" height="24" width="24" alt="">
+            <h2>Quizzify</h2>
+        </div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Jumbotron -->
+     <div class="container">
+        <div class="left">
+            <h1>Quiz Time</h1>
+            <p>Challenge your coding skills with our Quiz App! Test your knowledge, learn on the go, and see how you stack up against other programmers. Ready to prove your expertise?</p>
+        </div>
+        <div class="right">
+            <img src="https://cdn-icons-png.flaticon.com/256/11201/11201642.png" alt="">
+        </div>
+     </div>
+
+    <!-- Quiz start button -->
+    <div class="startButton"><button>Start Quiz</button></div>
+
+    <!-- Info box -->
+    <div class="infoBox">
+        <div class="infoTitle">
+            <span>Quiz Rules</span>
+        </div>
+        <ol class="infoList">
+            <li class="info">Each question has a <span>15-seconds</span> time limit.</li>
+            <li class="info">Once you choose an answer, it cannot be changed.</li>
+            <li class="info">Options are locked when the timer runs out.</li>
+            <li class="info">The quiz cannot be exited while in progress.</li>
+            <li class="info">Points are awarded based on correct answers.</li>
+        </ol>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quizBox">
+        <header>
+            <div class="title">Quizzify - CodeQuest</div>
+            <div class="timer">
+                <div class="timerText">Time Left</div>
+                <div class="timerTime">15</div>
+            </div>
+            <div class="timeLine"></div>
+        </header>
+        <section>
+            <div class="queText">
+                <!-- <span>What does HTML stands for?</span> -->
+            </div>
+            <div class="optionList">
+                <!-- <div class="option">
+                    <span>Hyper Text Preprocessor</span>
+                    <div class="icon tick"><i class="fa fa-check" aria-hidden="true"></i></div>
+                </div>
+                <div class="option">
+                    <span>Hyper Text Markup Language</span>
+                    <div class="icon cross"><i class="fa fa-times" aria-hidden="true"></i></div>
+                </div>
+                <div class="option">
+                    <span>Hyper Text Multiple Language</span>
+                </div>
+                <div class="option">
+                    <span>Hyper Tool Multi Language</span>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- Quiz box footer -->
+        <footer>
+            <div class="totalQue">
+                <!-- <span><p>2</p>Of<p>5</p>Questions</span> -->
+            </div>
+            <button class="nextQue">Next</button>
+        </footer>
+    </div>
+
+    <!-- Result box -->
+    <div class="resultBox">
+        <div class="icon">
+            <img src="https://cdn-icons-png.flaticon.com/256/6811/6811291.png" height="200px" width="200px" alt="">
+        </div>
+        <div class="textDesc">You've completed the Quiz</div>
+        <div class="scoreText">
+            <!-- <span>You got only <p>2</p>out of<p>5</p></span> -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
